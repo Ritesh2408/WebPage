@@ -258,7 +258,7 @@ nav div.show {
 @media (max-width: 900px) {
   .section4 {
     width: 100%;
-    height: 114rem;
+    height: 117rem;
   }
   .section4 .mycards1 {
     flex-direction: column;
