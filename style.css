@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush|Overpass+Mono:600,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 * {
   margin: 0px 0px;
 }
 
-body,html {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -31,17 +32,16 @@ ul {
   margin: 0;
 }
 
-
 header {
   height: 110vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent), url('University.jpg') no-repeat center center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent),
+    url("images/University.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
-
 
 header nav {
   /* NAV */
@@ -50,13 +50,12 @@ header nav {
   position: relative;
 }
 
-.mindspark{
+.mindspark {
   font-size: 50px;
   font-weight: bolder;
   border-bottom: 2px solid white;
   color: white;
 }
-
 
 header nav div ul {
   position: relative;
@@ -76,7 +75,7 @@ header nav div ul .exit-menu {
 }
 
 header nav div ul li {
-  font-family: 'PT Sans', sans-serif !important;
+  font-family: "PT Sans", sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -87,7 +86,8 @@ header nav div ul li a {
   transition: all 0.4s;
 }
 
-header nav div ul li a:hover, header nav div ul li a .active:hover {
+header nav div ul li a:hover,
+header nav div ul li a .active:hover {
   color: #be8040;
   border-bottom-color: #be8040;
 }
@@ -100,20 +100,20 @@ header .center {
 }
 
 header .center h1 {
-  font-family: 'Alex Brush', cursive !important;
+  font-family: "Alex Brush", cursive !important;
   color: #000;
   text-shadow: 1px 1px 2px black, 0 0 1em SandyBrown, 0 0 0.2em SandyBrown;
   font-size: 80px;
   margin-bottom: 34px;
 }
-@media (max-width:400px) {
-header .center h1{
-  font-family: 'Alex Brush', cursive !important;
-  color: #000;
-  text-shadow: 1px 1px 2px black, 0 0 1em SandyBrown, 0 0 0.2em SandyBrown;
-  font-size: 60px;
-  margin-bottom: 34px;
-}
+@media (max-width: 400px) {
+  header .center h1 {
+    font-family: "Alex Brush", cursive !important;
+    color: #000;
+    text-shadow: 1px 1px 2px black, 0 0 1em SandyBrown, 0 0 0.2em SandyBrown;
+    font-size: 60px;
+    margin-bottom: 34px;
+  }
 }
 header .center h2 {
   text-transform: uppercase;
@@ -129,7 +129,8 @@ header .center #asterisk {
   justify-content: center;
 }
 
-header .center #asterisk:before, header .center #asterisk:after {
+header .center #asterisk:before,
+header .center #asterisk:after {
   content: "";
   display: inline-block;
   position: relative;
@@ -164,7 +165,7 @@ nav div.show {
 /* SECTIONS */
 /* CLASSES */
 .custom-font {
-  font-family: 'Alex Brush', cursive;
+  font-family: "Alex Brush", cursive;
   color: #191970;
   font-size: 75px;
   line-height: 0;
@@ -188,12 +189,12 @@ nav div.show {
 
 .center-text p {
   margin-top: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
 }
 
 .center-text a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #be8040;
   text-transform: uppercase;
   font-size: 12px;
@@ -205,25 +206,20 @@ nav div.show {
 .section2 {
   width: 100%;
   height: 87vh;
-  background-color: #00BFFF;
+  background-color: #00bfff;
 }
 
-
-.section4{
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(0.25turn, #7B68EE, #6495ED, #87CEFA);
-
+.section4 {
+  padding: 2rem 0;
+  background: linear-gradient(0.25turn, #7b68ee, #6495ed, #87cefa);
 }
 
 .section2 h1 {
-
   text-align: center;
   text-decoration: 2px underline;
 }
 
 .section4 h1 {
-
   text-align: center;
   text-decoration: 2px underline;
 }
@@ -236,7 +232,7 @@ nav div.show {
   align-items: center;
   margin: 45px;
 }
-.section4 .mycards1{
+.section4 .mycards1 {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
@@ -244,9 +240,8 @@ nav div.show {
   align-items: center;
 }
 
-@media (max-width:900px) {
-
-  .section2{
+@media (max-width: 900px) {
+  .section2 {
     width: 100%;
     height: 85rem;
   }
@@ -254,28 +249,23 @@ nav div.show {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-
   }
-  .card{
+  .card {
     margin-bottom: 25px;
   }
 }
 
-@media (max-width:900px) {
-
-  .section4{
+@media (max-width: 900px) {
+  .section4 {
     width: 100%;
-    height: 110rem;
+    height: 114rem;
   }
   .section4 .mycards1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-
   }
-  .card{
+  .card {
     margin-bottom: 25px;
   }
 }
@@ -300,7 +290,7 @@ nav div.show {
 }
 
 .custom-h1 {
-  color: #FFF;
+  color: #fff;
   margin-left: 20px;
   margin-top: 10px;
   letter-spacing: 1px;
@@ -320,7 +310,8 @@ nav div.show {
 }
 
 .bread-background {
-  background: linear-gradient(to bottom, rgba(0, 191, 255, 0.8), transparent), #00BFFF;
+  background: linear-gradient(to bottom, rgba(0, 191, 255, 0.8), transparent),
+    #00bfff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -350,7 +341,8 @@ nav div.show {
   height: 100vh;
 }
 
-.reservation-section {}
+.reservation-section {
+}
 
 .text {
   font-size: 20px;
@@ -379,7 +371,6 @@ footer {
   position: relative;
   background: #141414;
   color: lightgray;
-
 }
 
 footer button {
@@ -435,7 +426,9 @@ footer .copyright span {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 425px) {
-  header, .bread-background, .cake-background {
+  header,
+  .bread-background,
+  .cake-background {
     background-attachment: scroll;
   }
 }
@@ -449,7 +442,6 @@ footer .copyright span {
 }
 
 @media (min-width: 769px) {
-
   /* NAV */
   /* FOOTER */
   nav {
@@ -556,7 +548,8 @@ footer .copyright span {
   animation-delay: 0.3s;
 }
 
-#asterisk::before, #asterisk::after {
+#asterisk::before,
+#asterisk::after {
   transform-origin: center center;
   animation: grow 0.5s forwards;
   animation-delay: 0.8s;
@@ -651,7 +644,7 @@ footer .copyright span {
   position: relative;
   margin-top: 50px;
   background: #008000;
-  border: 5px solid #228B22;
+  border: 5px solid #228b22;
   color: white;
   font-weight: bolder;
   padding: 3em 1em;
@@ -661,7 +654,6 @@ footer .copyright span {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   z-index: 1;
-
 }
 
 .button:hover {
@@ -676,7 +668,7 @@ footer .copyright span {
   content: "";
   display: block;
   position: absolute;
-  background: #228B22;
+  background: #228b22;
   transition: right 0.3s ease;
   z-index: -1;
   border-radius: 0.5em;
