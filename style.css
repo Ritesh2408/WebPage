@@ -213,7 +213,7 @@ nav div.show {
   width: 100%;
   height: 130vh;
   background: linear-gradient(0.25turn, #7B68EE, #6495ED, #87CEFA);
-  position:relative;
+  
 }
 
 .section2 h1 {
@@ -242,10 +242,7 @@ nav div.show {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  width:100%;
-  transform: translateY(-50%);
+  
 }
 
 @media (max-width:900px) {
@@ -270,7 +267,7 @@ nav div.show {
 
   .section4{
     width: 100%;
-    height: 110rem;
+    height: 114rem;
   }
   .section4 .mycards1 {
     flex-direction: column;
