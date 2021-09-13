@@ -273,8 +273,6 @@ nav div.show {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-
   }
   .card{
     margin-bottom: 25px;
