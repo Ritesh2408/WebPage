@@ -100,18 +100,18 @@ header .center {
 }
 
 header .center h1 {
-  font-family: "Alex Brush", cursive !important;
-  color: #000;
-  text-shadow: 1px 1px 2px black, 0 0 1em SandyBrown, 0 0 0.2em SandyBrown;
+  font-family: 'Ubuntu', sans-serif;
+  color: #8B008B;
+  text-shadow: 1px 1px 2px black, 0 0 1em #4B0082, 0 0 0.1em #4B0082;
   font-size: 80px;
   margin-bottom: 34px;
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header .center h1 {
-    font-family: "Alex Brush", cursive !important;
-    color: #000;
-    text-shadow: 1px 1px 2px black, 0 0 1em SandyBrown, 0 0 0.2em SandyBrown;
-    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #8B008B;
+    text-shadow: 1px 1px 2px black, 0 0 1em #4B0082, 0 0 0.1em #4B0082;
+    font-size: 55px;
     margin-bottom: 34px;
   }
 }
