@@ -101,16 +101,17 @@ header .center {
 
 header .center h1 {
   font-family: 'Ubuntu', sans-serif;
-  color: #FFF;
-  /*text-shadow: 1px 1px 2px black, 0 0 1em #4B0082, 0 0 0.1em #4B0082;*/
+  color: #fff;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   font-size: 80px;
   margin-bottom: 34px;
 }
+
 @media (max-width: 480px) {
   header .center h1 {
     font-family: 'Ubuntu', sans-serif;
-    color: #FFF;
-    /*text-shadow: 1px 1px 2px black, 0 0 1em #4B0082, 0 0 0.1em #4B0082;*/
+    color: #fff;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 55px;
     margin-bottom: 34px;
   }
